@@ -2,9 +2,9 @@
 #include <BlynkSimpleEsp8266.h>
 #include <RTClib.h>
 
-#define BLYNK_TEMPLATE_ID "TMPL6H-fEmQK5"
-#define BLYNK_TEMPLATE_NAME "Smart Home Manggarupi"
-#define BLYNK_AUTH_TOKEN "LHrEChcqaPFjR1kJzL9iLUa_AmMuS3Kz"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
+#define BLYNK_AUTH_TOKEN ""
 
 RTC_DS3231 rtc;
 
