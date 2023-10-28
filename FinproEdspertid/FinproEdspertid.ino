@@ -11,7 +11,7 @@ RTC_DS3231 rtc;
 String days[] = {"Senin", "selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"};
 
 const char *ssid = "FADHEL HAYAT";
-const char *pass = "manggarupi000";
+const char *pass = "";
 
 const int IN1 = D6;
 const int IN2 = D7;
