@@ -55,6 +55,7 @@ TimeRtc getTwoRowStrings(DateTime now) {
 void connectToWifi();
 void getTime();
 void lampu_teras_otomatis();
+void lampu_kamar_otomatis();
 
 void setup() {
   Serial.begin(115200);
@@ -79,6 +80,7 @@ void loop() {
   Blynk.run();
 
   lampu_teras_otomatis();
+  lampu_kamar_otomatis();
 
   Blynk.virtualWrite(V3, lcd.row1);
   Blynk.virtualWrite(V4, lcd.row2);
@@ -88,16 +90,16 @@ void loop() {
 void lampu_teras_otomatis() {
   // lampu teras otomatis
   TimeRtc time = getTimeRtc(rtc.now());
-  if (time.jam == 5 && time.min == 22 && time.sec == 0) {
+  if (time.jam == 5 && time.min == 30 && time.sec == 0) {
     digitalWrite(IN1, HIGH);
     Blynk.virtualWrite(V0, LOW);
     Serial.println("V0: Off");
   }
 
   if (time.jam == 17 && time.min == 45 && time.sec == 0) {
-    digitalWrite(IN1, HIGH);
-    Blynk.virtualWrite(V0, LOW);
-    Serial.println("V0: Off");
+    digitalWrite(IN1, LOW);
+    Blynk.virtualWrite(V0, HIGH);
+    Serial.println("V0: On");
   } 
 }
 
