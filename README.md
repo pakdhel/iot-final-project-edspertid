@@ -5,3 +5,7 @@ Namun ketika kembali di malam hari, keadaan di rumah sangatlah gelap. Dengan ada
 ![wiring finpro edspertid_bb](https://github.com/pakdhel/iot-final-project-edspertid/assets/113522795/8a37121a-7312-4af4-9775-9cfd3245dca8)
 ---
 Flowchart: https://www.figma.com/file/T2hGWzdDeh2HrdHHWFXweM/flowchart-finpro-edspertid?type=whiteboard&node-id=0%3A1&t=rBRmpHqXMq3Vx2dH-1
+---
+# Blynk Interface
+
+![Blynk](https://github.com/pakdhel/iot-final-project-edspertid/assets/113522795/59c450e2-89a7-4ba8-9e19-99dc9a8c72e1)
