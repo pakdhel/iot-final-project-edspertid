@@ -108,9 +108,9 @@ void lampu_kamar_otomatis() {
   // lampu kamar otomatis
   TimeRtc time = getTimeRtc(rtc.now());
   if (time.jam == 4 && time.min == 45 && time.sec == 0) {
-    digitalWrite(IN1, LOW);
-    Blynk.virtualWrite(V0, HIGH);
-    Serial.println("V0: On");
+    digitalWrite(IN3, LOW);
+    Blynk.virtualWrite(V2, HIGH);
+    Serial.println("V2: On");
   } 
 }
 
