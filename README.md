@@ -9,3 +9,7 @@ Flowchart: https://www.figma.com/file/T2hGWzdDeh2HrdHHWFXweM/flowchart-finpro-ed
 # Blynk Interface
 
 ![Blynk](https://github.com/pakdhel/iot-final-project-edspertid/assets/113522795/59c450e2-89a7-4ba8-9e19-99dc9a8c72e1)
+
+# LinkedIn
+
+https://www.linkedin.com/posts/muhammad-fadhel-h-736752250_excited-to-share-a-glimpse-of-my-ongoing-activity-7124070337712947200-9mBr?utm_source=share&utm_medium=member_desktop
